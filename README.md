@@ -10,7 +10,7 @@ The focus of the project is:
 ✔ simple, easy-to-use APIs
 ✔ clear separation between admin users and public learners
 
--
+
 
 **🧱 Architecture Overview**
 
@@ -91,7 +91,7 @@ Admin available at:
 
 ---
 
-## **📦 Running the Worker**
+**📦 Running the Worker**
 
 The worker is what turns scheduled lessons into published lessons.
 
@@ -109,8 +109,8 @@ while true; do python manage.py publish_scheduled; sleep 60; done
 
 ---
 
-**🎬 Demo Flow **
-
+**🎬 Demo Flow**
+ 
 1️⃣ Login to **/admin** using your superuser
 2️⃣ Create:
 
